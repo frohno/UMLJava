@@ -1,7 +1,18 @@
 /*
  * Empty Stylesheet file.
  */
+*{
+    -backgroundWhite: #F4F4F4;  /*Off white*/
+    -testWhite: #F5F5F5;  /*More Off White*/
+    -backgroundGrey: #333333;  /*Dark grey*/
+    -foregroundGrey: #515151;  /*Light grey*/
+    -backgroundBlue: #048BA8;  /*Light grey-blue*/
+    -foregroundBlue: #2E4057;  /*Dark grey-blue*/    
+}
 
-.mainFxmlClass {
-
+#sidebarMenuSelector{
+    -fx-background-color: -foregroundGrey;
+}
+#sidebar{
+    -fx-background-color: -backgroundGrey;
 }
