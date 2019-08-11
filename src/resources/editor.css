@@ -16,3 +16,13 @@
 #sidebar{
     -fx-background-color: -backgroundGrey;
 }
+.split-pane{
+    -fx-background-color: -backgroundGrey;
+}
+.split-pane-divider{
+    -fx-padding: 0;/*Hides the splitpane devider*/
+}
+
+#editor{
+    -fx-background-color: -backgroundWhite;
+}
